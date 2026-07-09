@@ -14,7 +14,7 @@ This project was built as a personal learning exercise in web development.
 - Reset button to clear progress and localStorage
 
 ## How to Use
-1. Open the website 
+1. Open the website at https://nobodyrightnow.github.io/deltarune-checklist/ 
 2. Select route
 3. Play Deltarune and check things off as you go
 4. Come back at any time to where you left off with persistent storage
