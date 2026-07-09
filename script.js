@@ -1,6 +1,6 @@
 // show/hide bonus stuff
-const showBonus = document.getElementById("item0-3");
-const hideBonus = document.getElementById("item0-4");
+const showBonus = document.getElementById("show-bonus");
+const hideBonus = document.getElementById("don't-show-bonus");
 
 const bonusItems = document.querySelectorAll(".bonus");
 
@@ -21,8 +21,8 @@ showBonus.addEventListener("change", bonusVisibility);
 hideBonus.addEventListener("change", bonusVisibility);
 
 // show/hide mercy route exclusives
-const mercyRoute = document.getElementById("item0-1");
-const noMercyRoute = document.getElementById("item0-2");
+const mercyRoute = document.getElementById("show-mercy");
+const noMercyRoute = document.getElementById("don't-show-mercy");
 
 const mercyItems = document.querySelectorAll(".mercy");
 const noMercyItems = document.querySelectorAll(".no-mercy");
@@ -51,10 +51,10 @@ noMercyRoute.addEventListener("change", changeRoute);
 
 
 // show/hide weird route/normal route items
-const proceed = document.getElementById("item2-30");
-const doNotProceed = document.getElementById("item2-31");
+const proceed = document.getElementById("weird-route");
+const doNotProceed = document.getElementById("normal-route");
 
-const weirdItems = document.querySelectorAll(".snowgrave");
+const weirdItems = document.querySelectorAll(".weird");
 const notWeirdItems = document.querySelectorAll(".not-weird");
 
 function getWeird() {

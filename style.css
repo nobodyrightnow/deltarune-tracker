@@ -250,6 +250,22 @@ label.sanct3::after {
     background-image: url("https://deltarune.wiki/images/Prophecy_screenshot_end.png?cb=mjscbx&h=thumb.php&f=Prophecy_screenshot_end.png");
 }
 
+label.garden::after {
+    background-image: url("https://deltarune.wiki/images/Garden_location.png?cb=dapead&h=thumb.php&f=Garden_location.png");
+}
+
+label.cliffs2::after {
+    background-image: url("https://deltarune.wiki/images/Cliffs_location.png?cb=gpx7nc&h=thumb.php&f=Cliffs_location.png");
+}
+
+label.flower-castle::after {
+    background-image: url("https://deltarune.wiki/images/thumb/Flower_Castle_location_Left_Doors.png/220px-Flower_Castle_location_Left_Doors.png.webp?cb=qn0trx&h=thumb.php&f=Flower_Castle_location_Left_Doors.png");
+}
+
+label.castle-top::after {
+    background-image: url("https://deltarune.wiki/images/Top_of_Castle_location.png?cb=iqip2z&h=thumb.php&f=Top_of_Castle_location.png");
+}
+
 @font-face {
     font-family: "Determination";
     src: url("res/DTM-Mono.woff2") format("woff2");
